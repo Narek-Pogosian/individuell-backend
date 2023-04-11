@@ -21,4 +21,4 @@ BASE_URL: http://localhost:5050/api
 Has to be logged in, send JWT token as bearer token
 
 - Create a new Order: POST BASE_URL/orders, body: { items: [{product: productId, quantity: number}, ...]}
-- Get order for user: GET BASE_URL/orders
+- Get all orders for user: GET BASE_URL/orders
