@@ -8,7 +8,7 @@ BASE_URL: http://localhost:5050/api
 
 - Post a new product: POST BASE_URL/products, body: {name: string, description: string, price: number, imageURL: string}
 
-- Update a product: PUT BASE_URL/products/:productId, body: {name: string, description: string, price: number, imageURL: string}
+- Update a product: PUT BASE_URL/products/:productId, body: {fields you want to update}
 
 - Delete a product: DELETE BASE_URL/products/:productId
 
