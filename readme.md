@@ -1,5 +1,8 @@
-Documention
+# API for websop
+Built with Express, MongoDB, Mongoose.
+Includes authentication
 
+## Documention
 BASE_URL: http://localhost:5050/api
 
 - Get all products: GET BASE_URL/products
